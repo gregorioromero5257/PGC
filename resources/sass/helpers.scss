@@ -1,0 +1,31 @@
+$sizes: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100);
+$screens: (xs, sm, md, lg, xl);
+
+@each $size in $sizes {
+    @each $screen in $screens {
+        .w-#{$screen}-#{$size} {
+            @if $screen == sm {
+                @include media-breakpoint-only(sm) {
+                    width: #{$size}#{'%'} !important;
+                }
+            } @else if $screen == md {
+                @include media-breakpoint-up(md) {
+                    width: #{$size}#{'%'} !important;
+                }
+            } @else if $screen == lg {
+                @include media-breakpoint-only(lg) {
+                    width: #{$size}#{'%'} !important;
+                }
+            } @else if $screen == xl {
+                @include media-breakpoint-only(xl) {
+                    width: #{$size}#{'%'} !important;
+                }
+            } @else {
+                @include media-breakpoint-only(xs) {
+                    width: #{$size}#{'%'} !important;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="25px" viewBox="0 0 18 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bulb</title>
+    <g id="Símbolos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#FFA000">
+            <g id="Group-9">
+                <path d="M8,0 C12.418278,0 16,3.4026359 16,7.6 C16,10.909103 13.7738257,13.7242527 10.6666236,14.76756 L10.6666667,19 L5.33333333,19 L5.33337643,14.76756 C2.22617426,13.7242527 0,10.909103 0,7.6 C0,3.4026359 3.581722,0 8,0 Z" id="Combined-Shape" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <g id="Group-8" transform="translate(6.000000, 6.000000)">
+                    <polyline id="Path-8" points="0 0 2 2.08393054 2 5"></polyline>
+                    <polyline id="Path-8-Copy" transform="translate(3.000000, 2.500000) scale(-1, 1) translate(-3.000000, -2.500000) " points="2 0 4 2.08393054 4 5"></polyline>
+                </g>
+            </g>
+            <line x1="5.33333333" y1="21.0321129" x2="10.6666667" y2="21.0321129" id="Path-4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="5.33333333" y1="23" x2="10.6666667" y2="23" id="Path-4-Copy" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></line>
+        </g>
+    </g>
+</svg>

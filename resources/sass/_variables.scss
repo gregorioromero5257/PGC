@@ -1,0 +1,39 @@
+// Body
+$body-bg: #ffff;
+
+// Typography
+$font-family-sans-serif: 'IBM Plex Sans Condensed', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #F68E1D;
+$orange-site: #F68E1D;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$white: #ffff;
+$yelow-uno : #FFA000;
+$blues : #063772;
+$gray : gray;
+$cancel : #858282;
+$orange-secondary: rgba(254,205,128, 0.5);
+
+//Placeholders
+
+%light-shadow {
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2) !important;
+}
+
+%flex-container {
+    display: flex;
+    padding: 1rem;
+}
